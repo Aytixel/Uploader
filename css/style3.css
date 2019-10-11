@@ -1,0 +1,142 @@
+/* base */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Code";
+    color: #FFFFFF;
+}
+
+/* top */
+.top {
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.top .title {
+    display: inline-block;
+    padding: 17px;
+}
+
+.top .title-button {
+    background-color: #242424;
+    width: 130px;
+    height: 40px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Code";
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.top .title-button:hover {background-color: #1A1A1A;}
+
+/* other */
+
+.button {
+    background-color: #242424;
+    width: 495px;
+    height: 40px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Code";
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.button:hover {background-color: #1A1A1A;}
+
+.text {
+    background-color: #242424;
+    width: 495px;
+    height: 30px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Text";
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.file[type=file] {display: none;}
+
+.upload-label {
+    background-color: #242424;
+    font-family: "Code";
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 5px;
+    padding-right: 305px;
+    margin-top: 5px;
+}
+
+.case {
+    background-color: #1A1A1A;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 500px;
+    float: left;
+}
+
+a {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.files {
+    width: 495px;
+    padding: 2px;
+}
+
+.files .file-link {
+    background-color: #242424;
+    width: 485px;
+    margin-top: 7px;
+    padding: 5px;
+}
+
+.files input[type=checkbox] {display: none;}
+
+.files input[type=checkbox] + label::before{
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FFFFFF;
+    margin-top: -10px;
+}
+
+.files input[type=checkbox]:checked + label::before{background: #FFFFFF;}
+
+.message-frame {
+    width: 495px;
+    height: 350px;
+    overflow-y: auto;
+}
+
+.message {
+    overflow: auto;
+    resize: none;
+    background-color: #242424;
+    width: 495px;
+    height: 90px;
+    border: none;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: "Text";
+    font-size: 20px;
+    color: #FFFFFF;
+}
